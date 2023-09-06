@@ -69,7 +69,7 @@ function UpdateTripForm() {
                 <input {...register("id")} />
                 <br />
 
-                <button type="submit">send</button>
+                <button onClick={()=>history.back()}type="submit">send</button>
             </form>
         </>
     )

@@ -100,7 +100,7 @@ function NewTripForm() {
                     <label htmlFor="id">id:</label>
                     <input type="text" name="id" autoComplete="off" value={tripData.id} onChange={handleInputChange}id="id" />
                 </div>
-                <button type="submit">send</button>
+                <button onClick={()=>history.back()} type="submit">send</button>
             </form>
         </>
     )

@@ -47,7 +47,7 @@ function UserRegistration() {
                 <label >password: </label>
                 <input {...register("password")} />
                 <br />
-                <button type="submit">send</button>
+                <button onClick={()=>history.back()} type="submit">send</button>
             </form>
         </>
     )
